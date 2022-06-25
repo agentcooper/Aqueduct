@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B046E3A28591F410017715E /* AqueductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B046E3928591F410017715E /* AqueductTests.swift */; };
+		5B046E45285925940017715E /* video-post.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B046E44285925940017715E /* video-post.html */; };
+		5B046E4728592D180017715E /* response.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B046E4628592D180017715E /* response.html */; };
+		5B1B0C352860D04F0091DE12 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C342860D04F0091DE12 /* AddView.swift */; };
+		5B1B0C372860D5300091DE12 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C362860D5300091DE12 /* ExportView.swift */; };
+		5B1B0C392860D5680091DE12 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C382860D5680091DE12 /* Markdown.swift */; };
+		5B1B0C3B2860DB4E0091DE12 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C3A2860DB4E0091DE12 /* TagView.swift */; };
+		5B1B0C3D28610BD20091DE12 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C3C28610BD20091DE12 /* PostListView.swift */; };
+		5B1B0C3F28610BED0091DE12 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C3E28610BED0091DE12 /* PostView.swift */; };
+		5B1B0C4128610C250091DE12 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C4028610C250091DE12 /* Sidebar.swift */; };
+		5B1B0C4328610DE00091DE12 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B0C4228610DE00091DE12 /* RefreshButton.swift */; };
+		5B993EAC2806F19200A99A06 /* AqueductApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B993EAB2806F19200A99A06 /* AqueductApp.swift */; };
+		5B993EAE2806F19200A99A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B993EAD2806F19200A99A06 /* ContentView.swift */; };
+		5B993EB02806F19300A99A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B993EAF2806F19300A99A06 /* Assets.xcassets */; };
+		5B993EB32806F19300A99A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B993EB22806F19300A99A06 /* Preview Assets.xcassets */; };
+		5BB7406D2847A65600DC3C2A /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB7406C2847A65600DC3C2A /* SwiftSoup */; };
+		5BB7406F2847B23A00DC3C2A /* TelegramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7406E2847B23A00DC3C2A /* TelegramAPI.swift */; };
+		5BB740712847B3ED00DC3C2A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB740702847B3ED00DC3C2A /* Model.swift */; };
+		5BBCEB3A28670A1900FC70FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEB3928670A1800FC70FD /* SettingsView.swift */; };
+		5BBCEB3C286723FD00FC70FD /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEB3B286723FD00FC70FD /* Channel.swift */; };
+		5BBCEB3E2867241000FC70FD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCEB3D2867241000FC70FD /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B046E3B28591F410017715E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B993EA02806F19200A99A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B993EA72806F19200A99A06;
+			remoteInfo = Aqueduct;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B046E3728591F410017715E /* AqueductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AqueductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B046E3928591F410017715E /* AqueductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqueductTests.swift; sourceTree = "<group>"; };
+		5B046E44285925940017715E /* video-post.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "video-post.html"; sourceTree = "<group>"; };
+		5B046E4628592D180017715E /* response.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = response.html; sourceTree = "<group>"; };
+		5B1B0C342860D04F0091DE12 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		5B1B0C362860D5300091DE12 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		5B1B0C382860D5680091DE12 /* Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
+		5B1B0C3A2860DB4E0091DE12 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		5B1B0C3C28610BD20091DE12 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		5B1B0C3E28610BED0091DE12 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		5B1B0C4028610C250091DE12 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		5B1B0C4228610DE00091DE12 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		5B993EA82806F19200A99A06 /* Aqueduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aqueduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B993EAB2806F19200A99A06 /* AqueductApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqueductApp.swift; sourceTree = "<group>"; };
+		5B993EAD2806F19200A99A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B993EAF2806F19300A99A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B993EB22806F19300A99A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B993EB42806F19300A99A06 /* Aqueduct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aqueduct.entitlements; sourceTree = "<group>"; };
+		5BB7406E2847B23A00DC3C2A /* TelegramAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramAPI.swift; sourceTree = "<group>"; };
+		5BB740702847B3ED00DC3C2A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5BBCEB3928670A1800FC70FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5BBCEB3B286723FD00FC70FD /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		5BBCEB3D2867241000FC70FD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B046E3428591F410017715E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B993EA52806F19200A99A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB7406D2847A65600DC3C2A /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B046E3828591F410017715E /* AqueductTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B046E3928591F410017715E /* AqueductTests.swift */,
+				5B046E44285925940017715E /* video-post.html */,
+				5B046E4628592D180017715E /* response.html */,
+			);
+			path = AqueductTests;
+			sourceTree = "<group>";
+		};
+		5B993E9F2806F19200A99A06 = {
+			isa = PBXGroup;
+			children = (
+				5B993EAA2806F19200A99A06 /* Aqueduct */,
+				5B046E3828591F410017715E /* AqueductTests */,
+				5B993EA92806F19200A99A06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B993EA92806F19200A99A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B993EA82806F19200A99A06 /* Aqueduct.app */,
+				5B046E3728591F410017715E /* AqueductTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B993EAA2806F19200A99A06 /* Aqueduct */ = {
+			isa = PBXGroup;
+			children = (
+				5B1B0C3A2860DB4E0091DE12 /* TagView.swift */,
+				5B1B0C362860D5300091DE12 /* ExportView.swift */,
+				5B993EAB2806F19200A99A06 /* AqueductApp.swift */,
+				5B993EAD2806F19200A99A06 /* ContentView.swift */,
+				5B1B0C4028610C250091DE12 /* Sidebar.swift */,
+				5BBCEB3D2867241000FC70FD /* Post.swift */,
+				5B1B0C3E28610BED0091DE12 /* PostView.swift */,
+				5B1B0C3C28610BD20091DE12 /* PostListView.swift */,
+				5B1B0C4228610DE00091DE12 /* RefreshButton.swift */,
+				5B993EAF2806F19300A99A06 /* Assets.xcassets */,
+				5B993EB42806F19300A99A06 /* Aqueduct.entitlements */,
+				5B993EB12806F19300A99A06 /* Preview Content */,
+				5BB7406E2847B23A00DC3C2A /* TelegramAPI.swift */,
+				5BB740702847B3ED00DC3C2A /* Model.swift */,
+				5B1B0C382860D5680091DE12 /* Markdown.swift */,
+				5B1B0C342860D04F0091DE12 /* AddView.swift */,
+				5BBCEB3928670A1800FC70FD /* SettingsView.swift */,
+				5BBCEB3B286723FD00FC70FD /* Channel.swift */,
+			);
+			path = Aqueduct;
+			sourceTree = "<group>";
+		};
+		5B993EB12806F19300A99A06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B993EB22806F19300A99A06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B046E3628591F410017715E /* AqueductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B046E3F28591F410017715E /* Build configuration list for PBXNativeTarget "AqueductTests" */;
+			buildPhases = (
+				5B046E3328591F410017715E /* Sources */,
+				5B046E3428591F410017715E /* Frameworks */,
+				5B046E3528591F410017715E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B046E3C28591F410017715E /* PBXTargetDependency */,
+			);
+			name = AqueductTests;
+			productName = AqueductTests;
+			productReference = 5B046E3728591F410017715E /* AqueductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B993EA72806F19200A99A06 /* Aqueduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B993EB72806F19300A99A06 /* Build configuration list for PBXNativeTarget "Aqueduct" */;
+			buildPhases = (
+				5B993EA42806F19200A99A06 /* Sources */,
+				5B993EA52806F19200A99A06 /* Frameworks */,
+				5B993EA62806F19200A99A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aqueduct;
+			packageProductDependencies = (
+				5BB7406C2847A65600DC3C2A /* SwiftSoup */,
+			);
+			productName = bowser;
+			productReference = 5B993EA82806F19200A99A06 /* Aqueduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B993EA02806F19200A99A06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5B046E3628591F410017715E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5B993EA72806F19200A99A06;
+					};
+					5B993EA72806F19200A99A06 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B993EA32806F19200A99A06 /* Build configuration list for PBXProject "Aqueduct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B993E9F2806F19200A99A06;
+			packageReferences = (
+				5BB7406B2847A65600DC3C2A /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 5B993EA92806F19200A99A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B993EA72806F19200A99A06 /* Aqueduct */,
+				5B046E3628591F410017715E /* AqueductTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B046E3528591F410017715E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B046E45285925940017715E /* video-post.html in Resources */,
+				5B046E4728592D180017715E /* response.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B993EA62806F19200A99A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B993EB32806F19300A99A06 /* Preview Assets.xcassets in Resources */,
+				5B993EB02806F19300A99A06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B046E3328591F410017715E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B046E3A28591F410017715E /* AqueductTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B993EA42806F19200A99A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBCEB3C286723FD00FC70FD /* Channel.swift in Sources */,
+				5BB740712847B3ED00DC3C2A /* Model.swift in Sources */,
+				5B1B0C352860D04F0091DE12 /* AddView.swift in Sources */,
+				5B993EAE2806F19200A99A06 /* ContentView.swift in Sources */,
+				5B1B0C3D28610BD20091DE12 /* PostListView.swift in Sources */,
+				5B1B0C392860D5680091DE12 /* Markdown.swift in Sources */,
+				5BB7406F2847B23A00DC3C2A /* TelegramAPI.swift in Sources */,
+				5BBCEB3A28670A1900FC70FD /* SettingsView.swift in Sources */,
+				5B993EAC2806F19200A99A06 /* AqueductApp.swift in Sources */,
+				5B1B0C372860D5300091DE12 /* ExportView.swift in Sources */,
+				5BBCEB3E2867241000FC70FD /* Post.swift in Sources */,
+				5B1B0C3B2860DB4E0091DE12 /* TagView.swift in Sources */,
+				5B1B0C4328610DE00091DE12 /* RefreshButton.swift in Sources */,
+				5B1B0C4128610C250091DE12 /* Sidebar.swift in Sources */,
+				5B1B0C3F28610BED0091DE12 /* PostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B046E3C28591F410017715E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B993EA72806F19200A99A06 /* Aqueduct */;
+			targetProxy = 5B046E3B28591F410017715E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B046E3D28591F410017715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297CWMJG7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agentcooper.AqueductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aqueduct.app/Contents/MacOS/Aqueduct";
+			};
+			name = Debug;
+		};
+		5B046E3E28591F410017715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297CWMJG7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = agentcooper.AqueductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aqueduct.app/Contents/MacOS/Aqueduct";
+			};
+			name = Release;
+		};
+		5B993EB52806F19300A99A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B993EB62806F19300A99A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5B993EB82806F19300A99A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Aqueduct/Aqueduct.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aqueduct/Preview Content\"";
+				DEVELOPMENT_TEAM = 297CWMJG7A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = agentcooper.Aqueduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B993EB92806F19300A99A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Aqueduct/Aqueduct.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aqueduct/Preview Content\"";
+				DEVELOPMENT_TEAM = 297CWMJG7A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = agentcooper.Aqueduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B046E3F28591F410017715E /* Build configuration list for PBXNativeTarget "AqueductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B046E3D28591F410017715E /* Debug */,
+				5B046E3E28591F410017715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B993EA32806F19200A99A06 /* Build configuration list for PBXProject "Aqueduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B993EB52806F19300A99A06 /* Debug */,
+				5B993EB62806F19300A99A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B993EB72806F19300A99A06 /* Build configuration list for PBXNativeTarget "Aqueduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B993EB82806F19300A99A06 /* Debug */,
+				5B993EB92806F19300A99A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BB7406B2847A65600DC3C2A /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BB7406C2847A65600DC3C2A /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB7406B2847A65600DC3C2A /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5B993EA02806F19200A99A06 /* Project object */;
+}
